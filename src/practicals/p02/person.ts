@@ -1,16 +1,16 @@
 export class Person {
-    public firstname :string = 'John';
-    public lastname : string = 'Doe';
+    public firstname :string = "John";
+    public lastname : string = "Doe";
     private age : number = 0 
 
-     static COUNTRY : string = 'Thailand';
+     static COUNTRY : string = "Thailand";
    
     setAge(age : number):void{
         this.age = age;
     }
   
    getFullName(){
-    return `${this.firstname}+" "+${this.lastname};`;
+    return this.firstname +" "+ this.lastname;
    } 
    getAge(){
    return this.age;
