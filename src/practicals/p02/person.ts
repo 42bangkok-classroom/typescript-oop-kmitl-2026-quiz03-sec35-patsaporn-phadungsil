@@ -12,6 +12,6 @@ export class Person {
    return this.age
    }
    getFullName():string{
-    return `${this.firstname}${this.lastname}`
+    return `${this.firstname} ${this.lastname}`
    }
 }
