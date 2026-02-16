@@ -1,6 +1,6 @@
 export class Person {
-    firstname :string = ''
-    lastname : string = ''
+    firstname :string = 'John'
+    lastname : string = 'Doe'
     private age : number = 0 
 
     public static COUNTRY : string = 'Thailand'
@@ -12,6 +12,6 @@ export class Person {
    return this.age
    }
    getFullName():string{
-    return `${this.firstname} ${this.lastname}`
+    return `${this.firstname}+" "+${this.lastname};`
    }
 }
