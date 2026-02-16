@@ -3,7 +3,7 @@ export class User {
     private password :string 
     private LOGIN_ATTEMPTS : number = 0
 
-    constructor(){
+    constructor(username : string,password :string){
         this.username = username
         this.password = password 
            }
