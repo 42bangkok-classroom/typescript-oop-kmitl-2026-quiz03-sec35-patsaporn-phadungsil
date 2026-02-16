@@ -8,9 +8,7 @@ export class User {
         this.password = password 
            }
 
-    public User(username : string,password :string){
-
-    }
+    
      public login(password: string): boolean {
     
     this.LOGIN_ATTEMPTS++
