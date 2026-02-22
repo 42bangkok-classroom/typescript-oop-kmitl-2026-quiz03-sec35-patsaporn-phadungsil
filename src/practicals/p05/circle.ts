@@ -3,7 +3,7 @@ export class Circle extends Shape{
 private radius : number = 0  
 constructor(color : string,radius : number){
   super(color)
-  
+  this.radius =radius
 }
 
 
