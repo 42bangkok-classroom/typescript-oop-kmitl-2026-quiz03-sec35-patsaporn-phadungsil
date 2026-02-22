@@ -2,7 +2,7 @@ export class Person {
     public firstname :string = "John";
     public lastname : string = "Doe";
     private age : number = 0 
-
+    
      static COUNTRY : string = "Thailand";
    
     setAge(age : number):void{
